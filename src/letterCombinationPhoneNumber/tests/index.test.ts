@@ -15,7 +15,7 @@ describe("Letter Combinations of a Phone Number", () => {
       expectedOutput: ["a", "b", "c"],
     },
   ])(
-    "should return correctly the two sum Numbers",
+    "should return correctly the letter combination of phone numbers",
     ({ digits, expectedOutput }) => {
       const res = letterCombinations(digits);
       expect(res).toEqual(expectedOutput);
