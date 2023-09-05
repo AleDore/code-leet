@@ -3,7 +3,6 @@ export function trap(height: number[]): number {
   let rainWater = 0;
 
   const findBounds = (arr: number[], idx: number, minBound: number = 0) => {
-    // [5, 4, 1, 2]
     const centralEl = arr[idx];
     let rightBound = 0,
       rightBoundIdx = -1,
