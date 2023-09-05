@@ -45,7 +45,6 @@ export function trap(height: number[]): number {
 
     if (bounds) {
       [leftIdx, rightIdx] = bounds;
-
       rainWater += calculateArea(height.slice(leftIdx, rightIdx + 1));
       i = rightIdx + 1;
     } else {

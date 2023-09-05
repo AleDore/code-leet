@@ -12,7 +12,7 @@ describe("Trap", () => {
       expectedOutput: 26,
     },
   ])(
-    "should return correctly the num of rainWater trapped by $height with $expectedOutput result",
+    "should return correctly the rainWater trapped by $height with $expectedOutput result",
     ({ height, expectedOutput }) => {
       const res = trap(height);
       expect(res).toEqual(expectedOutput);
